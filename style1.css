@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgba(51, 65, 14, 0.589);
+    font-family:"oswald", serif;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.highlight{
+    color: orange;
+    margin: 0 2px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+    margin:10px;
+    font-weight: bold;
+}
+ul a:hover{
+    color: orange;
+}
+#txt-search{
+    display: inline-block;
+    align-items: center;
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius:8px 0 0 8px ;
+    padding: 8px 16px;
+    outline: none;
+}
+::placeholder{
+    color: white;
+}
+.search-btn{
+    background-color: orange;
+    color: white;
+    border: 2px solid orange;
+    border-radius:0 8px 8px 0;
+    padding: 8px 16px;
+    font-weight: bold;
+    margin-left: -3px;
+   
+    
+}
+.search-btn:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+h1 a{
+    text-decoration: none;
+}
+h1 ,p{
+    color: white;
+}
+.intro{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.descrip{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 50%;
+    gap: 10px;
+
+}
+.sous-desc{ 
+    font-size: xx-large;
+}
+.login-form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: black;
+padding: 10px 20px;
+border-radius: 10px;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+  
+    
+}
+.msg-bck{
+    background-color:white;
+    color: orange;
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+form input{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid orange;
+    color: white;
+    padding: 8px 16px;
+    outline: none;
+
+}
+.btn{
+    background-color: orange;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 100%;
+    
+}
+.btn:hover{
+    background-color: white;
+}
+#socials{
+    text-decoration: underline;
+}
+form button{
+    font-weight: bold;
+}
+
+.descrip button{
+    width: 100px;
+}
